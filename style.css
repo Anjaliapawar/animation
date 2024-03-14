@@ -1,0 +1,139 @@
+/* *
+{
+    margin:0px;
+    padding:0px;
+}
+.section{
+    position: relative;
+    width: 100vw;
+    height: 20rem;
+    overflow-x: hidden;
+    }
+.team{
+    display: flex;
+    gap:20px;
+}
+.card
+{
+    width: inherit;
+  height: inherit;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  animation: primary 3s linear infinite;
+  background-color: aqua;
+    
+}
+.card2
+{
+    width: inherit;
+  height: inherit;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  animation: secondary 3s linear infinite;
+    
+}
+@keyframes primary{
+    0%{left:0px;}
+    100%{
+        left:-100%;
+    }  
+   
+}
+@keyframes secondary{
+    0%{left:100px;}
+    100%{
+        left:0%;
+    }  
+   
+} */
+/* .scroll-parent {
+  max-width: 1200px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  }
+  .flex{
+    display: flex;
+   overflow: hidden;
+  }
+  .imagegroup {
+    display: flex;
+    width: 100%;
+    animation-delay: 1s;
+   }
+ 
+ .imagegroup img{
+   flex-shrink: 0;
+   object-fit: cover;
+   border: 3px solid white;
+ }
+  
+  .primary {
+    animation: primary 10s linear infinite;
+    
+  }
+  .secondary {
+    animation: secondary 10s linear infinite;
+     }
+  @keyframes primary {
+    from {
+      left: 0%;
+    }
+    to {
+      left: -100%;
+    }
+  }
+  
+  @keyframes secondary {
+    from {
+      left: 100%;
+    }
+    to {
+      left: 0%;
+    }
+  } */
+  .header {
+    max-width: 100%;
+    position: absolute;  
+    top: 5%;
+    left: 0%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+   }
+ 
+ .row {
+    display: flex;
+    overflow: hidden;
+   }
+ 
+ .imagegroup {
+    display: flex;
+    width: 100%;
+   animation-delay: 1s;
+    animation: travel 20s linear infinite;
+   }
+ 
+ .imagegroup img{
+  
+   object-fit: cover;
+   border: 3px solid white;
+ }
+ 
+ 
+ @keyframes travel {
+    0% {
+      transform: translate(0%);
+     }
+    100% {
+       transform: translate(-100%);
+     }
+  }
